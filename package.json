@@ -5,12 +5,11 @@
   "private": false,
   "description": "Shared ESLint configurations for Tradecrush projects",
   "keywords": ["eslint", "config", "tradecrush"],
-  "author": "TradeCrush Team",
+  "author": "Tradecrush Team",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tradecrush/tradecrush.git",
-    "directory": "packages/eslint-config"
+    "url": "https://github.com/Tradecrush/eslint-config"
   },
   "main": "./configs/base-eslint-config.js",
   "exports": {
