@@ -1,0 +1,48 @@
+{
+  "name": "@tradecrush/eslint-config",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "Shared ESLint configurations for Tradecrush projects",
+  "keywords": ["eslint", "config", "tradecrush"],
+  "author": "TradeCrush Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tradecrush/tradecrush.git",
+    "directory": "packages/eslint-config"
+  },
+  "main": "./configs/base-eslint-config.js",
+  "exports": {
+    "./base-eslint-config": "./configs/base-eslint-config.js",
+    "./nextjs-eslint-config": "./configs/nextjs-eslint-config.js",
+    "./react-eslint-config": "./configs/react-eslint-config.js"
+  },
+  "files": [
+    "configs",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.19.0",
+    "@next/eslint-plugin-next": "^15.1.6",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import-x": "^4.6.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-turbo": "^2.4.0",
+    "typescript-eslint": "^8.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
