@@ -5,7 +5,7 @@
   "private": false,
   "description": "Shared ESLint configurations for Tradecrush projects",
   "keywords": ["eslint", "config", "tradecrush"],
-  "author": "Tradecrush Team",
+  "homepage": "https://www.tradecrush.io",
   "license": "MIT",
   "repository": {
     "type": "git",
